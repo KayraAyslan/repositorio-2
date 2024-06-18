@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen"
+</head>
+<body>
+    <!--Titulo-->
+    <div>
+        <h1 id="titulo">Cadastro</h1>
+    </div>
+
+    <form>
+        <fieldset>
+            <div>
+                <label>
+                    <strong>Nome</strong>
+                </label>
+                <input type="text" name="Nome" id="Nome">
+            </div>
+            <div>
+            <label>
+                <strong>Sobrenome</strong>
+            </label>
+            <input type="text" name="Sobrenome" id="Sobrenome">
+            </div>
+            <div>
+                <label>
+                    <strong>
+                        E-mail
+                    </strong>
+                </label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div>
+                <label>
+                    <strong>Senha</strong>
+                </label>
+                <input type="email" name="email" id="email"
+            </div>
+        </fieldset>
+        <!--Data de nascimento e Curso-->
+        <div>
+            <div>
+                <label>
+                    <strong>Data de Nascimento</strong>
+                </label>
+                <input type="date" name="Nascimento" id="Nascimento"
+            </div>
+            <label>
+                <strong>Curso:</strong>
+            </label>
+            <label>
+                <input type="radio" name="Curso" value="front-end">Front-end
+            </label>
+            <label>
+                <input type="radio" name="Curso" value="Back-end">Back-end
+            </label>
+            <label>
+                <input type="radio" name="Curso" value="Full-Stack">Full-Stack
+            </label>
+        </div>
+        <div>
+            <label>
+                <strong>Turno</strong>
+            </label>
+            <select>
+                <option selected disabled>Selecione</option>
+                <option>Manhã</option>
+                <option>Tarde</option>
+                <option>Noite</option>
+            </select>
+        </div>
+        <button type="submit" onsubmit="">Cadastrar</button>
+    </form>
+</body>
+</html>
